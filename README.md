@@ -5,21 +5,21 @@ The static (client) web page with the file name "index.html" consists of the fol
   1. Page title with the value "Start Page".
   2. Page encoding with the value "utf-8" (applied by default during creation).
   3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
-  4. The first level page body heading (there are 6 of them in total) with the value "Hello World".
-  5. A hyperlink to a server web page with the file name "HelloWorld.aspx" and the value (text) "ASP.Net Page".
-  6. A hyperlink to a web request handler (web controller) with the file name "HelloWorld.ashx".
+  4. The first level page body heading (there are 6 of them in total) with the value "Hello,World".
+  5. A hyperlink to a server web page with the file name "HelloWorld.jsp" and the value (text) "Java Server Page".
+  6. A hyperlink to a web request handler (servlet) with the file name "HelloWorld".
      with the value (text) "ASP.Net Web Handler".
 All hyperlinks are displayed on a new line on the page. 
-The server web page with the file name "HelloWorld.aspx" consists of the following parts:
+The server web page with the file name "HelloWorld.jsp" consists of the following parts:
   1. Page title with the value "Hello Page"
   2. Page encoding with the value "utf-8" (applied by default during creation).
   3. Data transfer type "text/html" (will contain elements of the HTML markup language and plain text).
   4. The title of the first level page body (there are 6 of them in total) with the value "Hello World!".
-  5. A phrase "Hello World!", code fragments in C#. Posted in paragraph №1.
-     The web browser page displays the current date, operating system version, and the version of the DoNet FrameWork runtime environment.
+  5. A phrase "Hello World!", code fragments in Java. Posted in paragraph №1.
+     The web browser page displays the current date, operating system version, and the url of the Servlet.
   6. A hyperlink to a static web page with the file name 'index.html' and the value (text) "Simple Html Page".
      Placed in paragraph №2.
-  7. A hyperlink to the web request handler (web controller) named "HelloWorld.ashx". Located in paragraph №2.
+  7. A hyperlink to the web request handler (web controller) named "HelloWorld". Located in paragraph №2.
      Each hyperlink is placed on a new line.
 All elements (text) are centered on the server web page. 
 The  web handler with the file name "HelloWorld.ashx",
